@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Slider?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.slider1.SliderController">
+   <children>
+      <Label text="Move the slider to the select a value" />
+      <Slider fx:id="minSlider" majorTickUnit="20.0" minorTickCount="1" showTickLabels="true" showTickMarks="true" />
+      <Label fx:id="statusLabel" />
+   </children>
+   <padding>
+      <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+   </padding>
+</VBox>
